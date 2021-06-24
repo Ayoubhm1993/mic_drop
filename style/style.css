@@ -8,8 +8,71 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
+    flex-wrap: wrap;
+    background-color: black;
+
+    
+    
     
 }
+h1{
+    color: white;
+    margin: 0% 5%;
+    font-size: 40px;
+}
 nav{
+display: flex;
+justify-content: space-around;
+align-items:center;
+margin: 0% 5%;
+height: 20vh;
 
+
+}
+li{
+    margin-left: 0%;
+
+}
+li a  {
+    color: white;
+    font-size: 20px;
+}
+
+section{
+    background-color: black;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+section h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    cursor: pointer;
+    
+}
+#what-we-do{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: column;
+    background-color: violet;
+}
+h2{
+    color: white;
+    font-size: 2.5rem;
+}
+p{
+    color: white;
+    margin: 5%;
 }
