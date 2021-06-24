@@ -11,7 +11,7 @@ header{
     flex-wrap: wrap;
     background-color: black;
 
-    
+    position: sticky;
     
     
 }
@@ -75,4 +75,20 @@ h2{
 p{
     color: white;
     margin: 5%;
+}
+
+#our-team{
+background-color: teal;
+display: flex;
+justify-content: center;
+align-items: center;
+flex-wrap: wrap;
+flex-direction: column;
+}
+.team-text {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    
 }
