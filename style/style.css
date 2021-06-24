@@ -2,7 +2,7 @@ body{
     margin: 0 ;
     padding: 0;
     box-sizing: border-box;
-   width: fit-content;
+   
 }
 header{
     display: flex;
@@ -40,7 +40,7 @@ li a  {
 }
 
 section{
-    background-image: url("../assest/images/home.jpg");
+    background-color: black;
     height: 80vh;
     display: flex;
     justify-content: center;
