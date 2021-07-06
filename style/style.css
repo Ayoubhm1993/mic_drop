@@ -40,11 +40,29 @@ li a  {
 }
 
 section{
-    background-color: black;
-    height: 80vh;
+    background-color:rgb(95, 95, 247);
+    height: 120vh;
+    width: auto;
+    display: flexbox;
+    justify-content: center;
+    align-items: center;
+    
+}
+.hero{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.logo {
+    width: 300px;
+    height: 100px;
     display: flex;
     justify-content: center;
     align-items: center;
+    background-color: #ffffff;
+    position: relative;
     
 }
 section h1 {
@@ -52,14 +70,23 @@ section h1 {
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
+    
 }
 .button{
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 3rem;
+
+    font-size: 40px;
     cursor: pointer;
+    position:relative;
+    margin:2%;
     
+}
+
+.trivia-logo{
+    height:200px;
+    width:300px;
 }
 #what-we-do{
     display: flex;
@@ -69,7 +96,13 @@ section h1 {
     flex-direction: column;
     background-image: none;
     background-color: violet;
+    height: auto;
+
     
+}
+#what-we-do img{
+   height: 60%;
+   width: 100%;
 }
 h2{
     color: white;
@@ -86,17 +119,31 @@ background-color: teal;
 display: flex;
 justify-content: center;
 align-items: center;
-flex-wrap: wrap;
+
 flex-direction: column;
 background-image: none;
-height: 100vh;
+height: 100%;
+}
+.team-member{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+
 }
 .team-text {
     display: flex;
     justify-content: center;
     align-items: center;
-    flex-wrap: wrap;
+    flex-direction: column;
     
+    
+}
+.team-text img{
+    height: 200px;
+    width:200px;
 }
 #contact{
     
@@ -105,7 +152,7 @@ height: 100vh;
     align-items: center;
     flex-wrap: wrap;
     flex-direction: column;
-    height: 100vh;
+    height:100%;
     background-image: none;
     background-color: black;
 
@@ -123,7 +170,7 @@ h3{
     justify-content:space-evenly;
     flex-wrap: wrap;
     
-    max-height:80vh ;
+    
     
     
     
@@ -132,13 +179,13 @@ h3{
 .map{
     position: relative;
     
-    width: 40vh;
+    width: 300px;
 }
 
 iframe {
     
-    height: 40vh;
-    width: 40vh;
+    height: 300px;
+    width: 300px;
   
   }
 .contact-address{
@@ -150,7 +197,7 @@ iframe {
     
 }
 .contact-address h3{
-    font-size: 2rem;
+    font-size: 1.5rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -158,7 +205,7 @@ iframe {
     
 }
 .contact-info p, .contact-info address {
-    margin: 5% 0;
+
     line-height: 1.5;
     font-size: 20px;
     font-style: normal;
@@ -182,14 +229,14 @@ footer{
     display: flex;
     justify-content: space-between;
     background-color:black;
-   
-    padding: 40px 35px;
+   height:100%;
+    
   }
   footer h2 {
     display: flex;
     justify-content: flex-start;
     color: #ffffff;
-    font-size: 30px;
+    font-size: 1rem;
     margin: 0;
   }
   footer div {
